@@ -12,6 +12,7 @@
 		CE52D27A20EE14BE006E52F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE52D27820EE14BE006E52F2 /* Main.storyboard */; };
 		CE52D27C20EE14BF006E52F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE52D27B20EE14BF006E52F2 /* Assets.xcassets */; };
 		CE52D27F20EE14BF006E52F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE52D27D20EE14BF006E52F2 /* LaunchScreen.storyboard */; };
+		CE52D28720EF04E8006E52F2 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52D28620EF04E8006E52F2 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE52D27B20EE14BF006E52F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE52D27E20EE14BF006E52F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE52D28020EE14BF006E52F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE52D28620EF04E8006E52F2 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				CE52D27420EE14BE006E52F2 /* AppDelegate.swift */,
+				CE52D28620EF04E8006E52F2 /* CalculatorBrain.swift */,
 				CE52D27620EE14BE006E52F2 /* ViewController.swift */,
 				CE52D27820EE14BE006E52F2 /* Main.storyboard */,
 				CE52D27B20EE14BF006E52F2 /* Assets.xcassets */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE52D28720EF04E8006E52F2 /* CalculatorBrain.swift in Sources */,
 				CE52D27720EE14BE006E52F2 /* ViewController.swift in Sources */,
 				CE52D27520EE14BE006E52F2 /* AppDelegate.swift in Sources */,
 			);
