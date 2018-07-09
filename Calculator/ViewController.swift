@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
         var sum: String = ""
         if let digit = sender.currentTitle {
-            print("touched \(digit).")
+            //print("touched \(digit).")
             sum = digit
         }
         if userIsInTheMiddleOfTyping {
